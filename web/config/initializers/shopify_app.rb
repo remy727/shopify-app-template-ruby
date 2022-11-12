@@ -6,9 +6,9 @@ ShopifyApp.configure do |config|
     # to let your app know.
     { topic: "app/uninstalled", address: "api/webhooks/app_uninstalled" },
   ]
-  config.application_name = "My Shopify App"
+  config.application_name = ENV.fetch("SHOPIFY_APP_NAME")
   config.old_secret = ""
-  config.scope = ENV.fetch("SCOPES", "write_products") # See shopify.app.toml for scopes
+  config.scope = ENV.fetch("SHOPIFY_API_SCOPES", "write_products") # See shopify.app.toml for scopes
   # Consult this page for more scope options: https://shopify.dev/api/usage/access-scopes
   config.embedded_app = true
   config.after_authenticate_job = false
