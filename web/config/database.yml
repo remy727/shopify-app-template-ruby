@@ -7,10 +7,10 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 development:
   <<: *default
-  database: pc_orders_development
+  database: shopify_app_development
 test:
   <<: *default
-  database: pc_orders_test
+  database: shopify_app_test
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
