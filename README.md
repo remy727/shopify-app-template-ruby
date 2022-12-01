@@ -20,14 +20,14 @@
 
   | ENV                        | Value                            |
   | -------------------------- | -------------------------------- | 
-  | `HOST`                     | https://<your-app>.herokuapp.com |
-  | `RAILS_MASTER_KEY`         | <master key>                     |
+  | `HOST`                     | https://your-app.herokuapp.com   |
+  | `RAILS_MASTER_KEY`         | Master Key                       |
   | `RAILS_ENV`                | production                       |
   | `RAILS_SERVE_STATIC_FILES` | 1                                |
-  | `SHOPIFY_API_KEY`          | <shopify-api-key>                |
-  | `SHOPIFY_API_SCOPES`       | <shopify-api-scopes>             |
-  | `SHOPIFY_API_SECRET`       | <shopify-api-secret>             |
-  | `SHOPIFY_APP_NAME`         | <shopify-app-name>               |
+  | `SHOPIFY_API_KEY`          | Shopify API Key                  |
+  | `SHOPIFY_API_SCOPES`       | Shopify API Scopes               |
+  | `SHOPIFY_API_SECRET`       | Shopify API Secret               |
+  | `SHOPIFY_APP_NAME`         | Shopify APP Name                 |
 
 - Deploy
 - Run `heroku ps:scale worker=1`
