@@ -12,8 +12,8 @@
   ```
 - Update `SHOPIFY_API_KEY` in `heroku.yml`
 - Add Heroku Addons
-  * Heroku Postgres
-  *
+  * [Heroku Postgres](https://elements.heroku.com/addons/heroku-postgresql)
+  * [Heroku Data for Redis](https://elements.heroku.com/addons/heroku-redis)
 - Add ENVs
 
 | Variable                   |
