@@ -18,17 +18,16 @@
   * [Heroku Data for Redis](https://elements.heroku.com/addons/heroku-redis)
 - Add ENVs
 
-  | Variable                   |
-  | -------------------------- |
-  | `HOST`      |
-  | `RAILS_MASTER_KEY`         |
-  | `RAILS_ENV`                |
-  | `RAILS_SERVE_STATIC_FILES` |
-  | `RAILS_LOG_TO_STDOUT`      |
-  | `SHOPIFY_API_KEY`          |
-  | `SHOPIFY_API_SCOPES`       |
-  | `SHOPIFY_API_SECRET`       |
-  | `SHOPIFY_APP_NAME`         |
+  | ENV                        | Value                            |
+  | -------------------------- | -------------------------------- | 
+  | `HOST`                     | https://<your-app>.herokuapp.com |
+  | `RAILS_MASTER_KEY`         | <master key>                     |
+  | `RAILS_ENV`                | production                       |
+  | `RAILS_SERVE_STATIC_FILES` | 1                                |
+  | `SHOPIFY_API_KEY`          | <shopify-api-key>                |
+  | `SHOPIFY_API_SCOPES`       | <shopify-api-scopes>             |
+  | `SHOPIFY_API_SECRET`       | <shopify-api-secret>             |
+  | `SHOPIFY_APP_NAME`         | <shopify-app-name>               |
 
 - Deploy
 - Run `heroku ps:scale worker=1`
