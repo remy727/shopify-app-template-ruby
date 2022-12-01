@@ -4,11 +4,13 @@
 - Clone [shopify-app-template-ruby](https://github.com/remy727/shopify-app-template-ruby)
 - Install the ruby dependencies:
   ```shell
-  bundle install
+  $ cd web
+  $ bundle install
   ```
 - Run the [Rails template](https://guides.rubyonrails.org/rails_application_templates.html) script.
   ```shell
-  bin/rails app:template LOCATION=./template.rb
+  $ cd web
+  $ bin/rails app:template LOCATION=./template.rb
   ```
 - Update `SHOPIFY_API_KEY` in `heroku.yml`
 - Add Heroku Addons
