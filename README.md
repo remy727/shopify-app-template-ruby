@@ -1,5 +1,7 @@
 # Shopify App Template - Rails 7 + Heroku + Postgres
 
+This is a template for building a Shopify app using Ruby on Rails + React + Postgres + Heroku. It contains the basics for building a Shopify app.
+
 ### Steps
 - Clone [shopify-app-template-ruby](https://github.com/remy727/shopify-app-template-ruby)
 - Install the ruby dependencies:
