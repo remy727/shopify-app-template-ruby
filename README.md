@@ -1,4 +1,4 @@
-# Shopify App Template - Ruby on Rails + Heroku + Postgres
+# Shopify App Template - Rails 7 + Heroku + Postgres
 
 ### Steps
 - Clone [shopify-app-template-ruby](https://github.com/remy727/shopify-app-template-ruby)
