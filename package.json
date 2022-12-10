@@ -12,8 +12,8 @@
     "info": "shopify app info"
   },
   "dependencies": {
-    "@shopify/app": "3.22.1",
-    "@shopify/cli": "3.22.1"
+    "@shopify/app": "3.25.0",
+    "@shopify/cli": "3.25.0"
   },
   "author": "admin"
 }
