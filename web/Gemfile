@@ -77,4 +77,4 @@ group :test do
 end
 
 gem "sidekiq"
-gem "shopify_app", "~> 21.3.0"
+gem "shopify_app", "~> 21.4"
